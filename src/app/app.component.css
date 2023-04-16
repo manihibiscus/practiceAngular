@@ -1,0 +1,16 @@
+*{
+  margin:0px;
+  padding: 0px;
+  }
+  nav
+  {
+  display: flex;
+  background-color: #FFD580;
+  justify-content: center;
+  }
+  nav a{
+    display: flex;
+    margin: 20px;
+    color: darkblue;
+    font-size: 25px;
+  }

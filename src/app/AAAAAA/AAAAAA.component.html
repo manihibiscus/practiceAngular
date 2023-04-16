@@ -1,0 +1,39 @@
+<h2>Registration Form</h2>
+
+<form>
+  <div class="form-group">
+    <label for="firstName">First Name</label>
+    <input type="text" class="form-control" id="firstName" name="firstName" required>
+  </div>
+
+  <div class="form-group">
+    <label for="lastName">Last Name</label>
+    <input type="text" class="form-control" id="lastName" name="lastName" required>
+  </div>
+
+  <div class="form-group">
+    <label for="email">Email Address</label>
+    <input type="email" class="form-control" id="email" name="email" required>
+  </div>
+
+  <div class="form-group">
+    <label for="password">Password</label>
+    <input type="password" class="form-control" id="password" name="password" required>
+  </div>
+
+  <div class="form-group">
+    <label for="country">Country</label>
+    <select class="form-control" id="country" name="country" [(ngModel)]="value" (change)="onCountrySelected(value)">
+      <option *ngFor="let country of countries" [value]="country.id">{{ country.name }}</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label for="city">City</label>
+    <select class="form-control" id="city" name="city">
+      <option *ngFor="let city of cities" [value]="city.id">{{ city.name }}</option>
+    </select>
+  </div>
+
+  <button type="submit" class="btn btn-primary">Register</button>
+</form>
