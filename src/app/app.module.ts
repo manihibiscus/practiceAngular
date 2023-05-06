@@ -21,7 +21,7 @@ import { CountryComponent } from './country/country.component';
 import { AAAAAAComponent } from './AAAAAA/AAAAAA.component';
 
 @NgModule({
-  declarations: [			
+  declarations: [
     AppComponent,
       HomeComponent,
       ProductComponent,
@@ -37,7 +37,7 @@ import { AAAAAAComponent } from './AAAAAA/AAAAAA.component';
       ChooseComponent,
       CountryComponent,
       AAAAAAComponent
-   ],
+       ],
   imports: [
     BrowserModule,
     AppRoutingModule,

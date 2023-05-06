@@ -53,9 +53,20 @@
         }
       ]
     }
-  ]
-
-
-
+  ],
+"data": [
+      {
+        "name": "John",
+        "value": "Doe"
+      },
+      {
+        "name": "Jane",
+        "value": "Doe"
+      },
+      {
+        "name": "Bob",
+        "value": "Smith"
+      }
+    ]
 }
 
